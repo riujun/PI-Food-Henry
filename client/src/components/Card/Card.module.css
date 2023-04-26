@@ -1,0 +1,61 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px #e38e8e;
+    width: 620px;
+    padding-top: 10px;
+    margin-top: 30px;
+    border-radius: 5%;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #d9bcaf 0%, #e3785a 100%);
+
+
+    
+
+
+}
+
+.cotainerHealth{
+    font-size: 17px;
+    padding: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: #FEE140;
+    background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+}
+.cardsContainer{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    min-width: 220px;
+    max-width: 518px;
+    height: 280px;
+}
+.cardsContainer img {
+ border: 3px solid #131313;
+ border-radius: 5px;
+ margin-left: 10px;
+}
+.divDiets{
+    height: fit-content;
+    padding-left: 5px;
+
+}
+
+
+.buttonCards{
+    border: 2px solid rgb(214, 214, 79);
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+
+ /* .buttonContainer{
+    position: absolute;
+    text-align: center;
+    top: 260px;
+}  */

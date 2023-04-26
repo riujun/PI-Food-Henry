@@ -1,0 +1,151 @@
+.containerSectionForm{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.formContainer{
+    height: fit-content;
+    min-width: fit-content;
+    display: flex;
+    max-width: 80%;
+    border: 2px solid #131313;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px;
+    border-radius: 5%;
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #d9bcaf 0%, #e3785a 100%);
+
+
+
+}
+.dietsSelec p{
+margin-left: 10px;
+border: 1px solid;
+padding: 2px;
+background-color: white;
+}
+
+
+.containerForm{
+    margin-right: 100px;
+
+}
+.containerIndividual{
+    margin-bottom: 40px;
+}
+
+input{
+    width:150px ;
+    border: 2px solid;
+    margin-right: 10px;
+
+}
+
+
+.divContainerButton{
+    display: flex;
+    flex-direction: column;
+}
+.divContainerButton span{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    min-width: 100px;
+    margin-top: 100px;
+    border: 2px solid;
+    height: 44px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
+    
+   
+}
+section button{
+    --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+
+ font-size: 15px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: none;
+    /* width: auto;
+    height: 35px;
+    border: 1px solid #131313;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700; */
+}
+.button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.65em 1em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+   }
+   button:hover .button_top {
+    /* Pull the button upwards when hovered */
+   transform: translateY(-0.33em);
+  }
+  
+  button:active .button_top {
+    /* Push the button downwards when pressed */
+   transform: translateY(0);
+  }
+
+select{
+    width: auto;
+    height: 40px;
+    font-size: 18px;
+    margin-top:20px ;
+}
+
+
+.input {
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  .label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+
+
+  .warning{
+    
+    color: #fe0505;
+    font-weight: 600;
+  }
+
+
+
